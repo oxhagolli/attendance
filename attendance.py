@@ -1,3 +1,9 @@
+"""
+    @author Orens Xhagolli
+    This tool makes taking attendance easier. All you have to do is provide a prior classlist from mycourses.
+    There is a matching function, which means you won't have to write the full name of the student to take attendance.
+"""
+
 from difflib import SequenceMatcher
 
 import random

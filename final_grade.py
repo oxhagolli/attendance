@@ -1,3 +1,9 @@
+"""
+    @author Orens Xhagolli
+    This tool combines your present.txt file and kahoot.txt results into your weekly final grade.
+    The results are stored into a dictionary called 'total' and you can query that dictionary by username.
+"""
+
 from difflib import SequenceMatcher
 
 import sys

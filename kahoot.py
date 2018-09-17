@@ -1,3 +1,8 @@
+"""
+    @author Orens Xhagolli
+    This file will take the kahoot reports from both recitations during the week and combine them into one.
+"""
+
 import xlrd
 import sys
 
