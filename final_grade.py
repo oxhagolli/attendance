@@ -20,13 +20,13 @@ if len(sys.argv) != 3:
 kscore = {}
 with open(sys.argv[1]) as kahoot:
     for line in kahoot:
-        user, score = line.strip().strip(" ").split(",")
+        user, score = line.lower().strip().strip(" ").split(",")
         kscore[user] = int(score)
 
 present = {}
 with open(sys.argv[2]) as pres:
     for line in pres:
-        user, first, last = line.strip().strip(" ").split(", ")
+        user, first, last = line.lower().strip().strip(" ").split(", ")
         present[user] = 5
 
 total = {}
